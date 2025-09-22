@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>Name: </label>
+    <input type="text" id="uname">
+    <button onclick="greeting">Click</button>
+    <p id="output">Welcome</p>
+    <script>
+        function greeting(){
+            let uname=document.getElementById("uname").value
+            document.getElementById("output").innerText="welcome"+uname
+        }
+    </script>
+
+</body>
+</html>
